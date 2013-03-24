@@ -1,0 +1,9 @@
+import os ;
+import testing ;
+import flex ;
+
+use-project /boost : [ os.environ BOOST_ROOT ] ;
+
+run
+    lexer.l
+    ;
